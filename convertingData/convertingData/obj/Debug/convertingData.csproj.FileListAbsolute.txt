@@ -1,0 +1,9 @@
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\bin\Debug\convertingData.exe.config
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\bin\Debug\convertingData.exe
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\bin\Debug\convertingData.pdb
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.Form1.resources
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.Properties.Resources.resources
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.csproj.GenerateResource.Cache
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.exe
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.pdb
+E:\ZhuXinying\myself code\2017Project\convertingData\convertingData\obj\Debug\convertingData.csprojResolveAssemblyReference.cache
