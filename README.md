@@ -64,7 +64,7 @@
 
 ## Demo 
 
-Demo使用ArcGIS Engine 10.4，Visual Stduio 2013编写，程序主要有两部分功能，一是通过ArcObjects接口分别实现文中提到的导入数据的几种方式；另一个是直接调用GP工具，主要是想测试一下不同方法实现相同功能的效率。
+Demo使用ArcGIS Engine 10.4，Visual Stduio 2013编写，程序主要有两部分功能，一是通过ArcObjects接口分别实现文中提到的导入数据的几种方式；另一个是直接调用GP工具，主要是想测试一下不同方法实现相同功能的效率对比。
 
 界面为：
 
