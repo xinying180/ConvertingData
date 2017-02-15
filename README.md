@@ -26,12 +26,6 @@
 
 代码可参考[ArcObjects帮助文档](http://resources.arcgis.com/en/help/arcobjects-net/conceptualhelp/index.html#/Converting_and_transferring_data/0001000003rp000000/)
 
-另外，**我编写的调用数据转换的几种方法的Demo已上传至github**，*链接：*https://github.com/xinying180/ConvertingData 
-
-界面为：
-
-![使用AO接口操作](http://img.blog.csdn.net/20170215105459074?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)                ![直接调用GP工具](http://img.blog.csdn.net/20170215105542043?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
 *Tips：*如果程序中绑定Engine，则需要初始化EngineGeoDB许可（编辑SDE数据需要该许可，当然如果绑定Desktop，也可以使用Standard或者Advanced许可），直接使用Engine许可会报下面错误。
 
 ![报错信息](http://img.blog.csdn.net/20170215105901076?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
@@ -67,5 +61,15 @@
 说了这么多，前面的东西是否又忘了呢，不要紧，文章最后将之前提到的使用AO接口导入数据的方法汇总如下：
 
 ![各种导入数据方法的表格](http://img.blog.csdn.net/20170215134612780?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+## Demo 
+
+Demo使用ArcGIS Engine 10.4，Visual Stduio 2013编写，程序主要有两部分功能，一是通过ArcObjects接口分别实现文中提到的导入数据的几种方式；另一个是直接调用GP工具，主要是想测试一下不同方法实现相同功能的效率。
+
+界面为：
+
+![使用AO接口操作](http://img.blog.csdn.net/20170215105459074?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)                ![直接调用GP工具](http://img.blog.csdn.net/20170215105542043?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlueWluZzE4MA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+[convertingData](https://github.com/xinying180/ConvertingData)
 
 预告一下，接下来会给大家介绍Engine中往已有要素类中插入数据的方法，敬请期待…
